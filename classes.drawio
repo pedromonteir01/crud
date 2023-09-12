@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="86wS_HXa5c6nJkgnZg5E" name="Page-1">
+        <mxGraphModel dx="606" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="10" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="199" y="160" width="226" height="314" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="10">
+                    <mxGeometry width="226" height="314" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font size=&quot;3&quot;&gt;-Id : int&lt;br&gt;-name : String&lt;br&gt;-qnt : int&lt;br&gt;-total : int&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="10">
+                    <mxGeometry y="62" width="226" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Team&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="10">
+                    <mxGeometry x="83" y="24" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font size=&quot;3&quot;&gt;+id() : int&lt;br&gt;+calcReservs() : int&lt;br&gt;+calcTotal() : int&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="10">
+                    <mxGeometry y="192" width="226" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="570" y="160" width="270" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="group" vertex="1" connectable="0" parent="11">
+                    <mxGeometry y="-10" width="260" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="17">
+                    <mxGeometry width="260" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font size=&quot;3&quot;&gt;-teams : Objects[]&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="17">
+                    <mxGeometry y="69.10828025477706" width="260" height="144.90445859872608" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Team Service&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="17">
+                    <mxGeometry x="34.51327433628319" y="22.292993630573246" width="203.62831858407083" height="33.43949044585987" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;font style=&quot;&quot; size=&quot;3&quot;&gt;+addTeam(): void&lt;br&gt;+listTeams(): Objects[]&lt;br&gt;+&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;listTeamsById&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;param&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;): Objects[]&lt;br&gt;+&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;updateTeam&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;id&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;background-color: rgb(26, 27, 38); font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;background-color: rgb(26, 27, 38); font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;holders&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;) : Object&lt;br&gt;+&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;deletTeam&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;param&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Fira code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;) : Objects[]&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="17">
+                    <mxGeometry y="214.01273885350318" width="260" height="135.98726114649682" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="3" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;(0, *)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="260" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="(1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="290" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
